@@ -81,3 +81,8 @@
 .cert-preview span{position:absolute;left:0;right:0;bottom:0;padding:9px 11px;background:linear-gradient(transparent,rgba(4,5,6,.96));color:#e8ebed;font:600 8px 'Space Grotesk';letter-spacing:.12em;text-align:right}
 .cert-preview:hover{border-color:var(--cert-color);transform:translateY(-2px)}
 .cert-preview:hover img{opacity:.9;transform:scale(1.04)}
+.social-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.social-links a{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-width:150px;padding:14px 16px;border:1px solid #343a40;color:#e7eaec;text-decoration:none;font:600 10px 'Space Grotesk';letter-spacing:.12em;transition:color .2s,border-color .2s,transform .2s,background .2s}
+.social-links a span{color:var(--accent);font-size:15px}
+.social-links a:hover{color:#0a0b0d;border-color:var(--accent);background:var(--accent);transform:translateY(-2px)}
+.social-links a:hover span{color:#0a0b0d}
